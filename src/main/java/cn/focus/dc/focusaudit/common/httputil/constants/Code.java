@@ -1,0 +1,57 @@
+package cn.focus.dc.focusaudit.common.httputil.constants;
+
+/**
+ * Copyright (C) 2015 - 2016 SOHU FOCUS Inc., All Rights Reserved.
+ * <p>
+ * 返回码枚举类
+ *
+ * @Author: junlanli@sohu-inc.com
+ * @Date: 2016-10-24
+ */
+public interface Code {
+
+    int SUCCESS = 200;
+
+    int ERROR_INTERNAL = 500;
+
+    int ERROR_TAG_WRONG = 407;
+
+    int ERROR_STATUS_WRONG = 405;
+
+    int ERROR_TYPE_NOT_EXISTED = 403;
+
+    int ERROR_PARAMS_STYLE_WRONG = 402;
+
+    int ERROR_ID_NOT_EXISTED = 401;
+
+    int ERROR_FIELD_NOT_EXISTED = 400;
+
+    int ERROR_SPIDER_INFO_IMPERFECT = 411;
+
+    int ERROR_NO_AUTH = 458;
+
+    int ERROR_FIELD_WRONG = 489;
+
+    int ERROR_SPIDER_INFO_IMPERFECT_SALE = 490;
+    int ERROR_SPIDER_INFO_IMPERFECT_LAUNCH = 491;
+    int ERROR_SPIDER_INFO_IMPERFECT_LICENCE = 492;
+    int ERROR_SPIDER_INFO_IMPERFECT_BASIC = 493;
+    int ERROR_SPIDER_INFO_IMPERFECT_TRAFFIC = 494;
+    int ERROR_SPIDER_INFO_IMPERFECT_PLAN = 495;
+    int ERROR_SPIDER_INFO_IMPERFECT_ALBUM = 496;
+    int ERROR_SPIDER_INFO_IMPERFECT_LAYOUT = 497;
+
+    int ERROR_INVALID_TOKEN = 412;
+
+    int ERROR_INVALID_COOKIE = 413;
+
+    int ERROR_METHOD_WRONG = 404;
+
+    int ERROR_PARAMETERS_WRONG = 406;
+
+    int ERROR_USERNAME_NOT_EXISTED = 408;
+
+    int ERROR_MISSING_COOKIE = 409;
+
+    int ERROR_KEY_NOT_EXISTED = 410;
+}

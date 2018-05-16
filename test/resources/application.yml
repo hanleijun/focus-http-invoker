@@ -1,0 +1,7 @@
+spring:
+  zk:
+    zkHost: 10.18.35.111:2181
+custom:
+  appId: 1100
+host:
+  house-sv-base: http://house-sv-base.focus-dev10.cn
